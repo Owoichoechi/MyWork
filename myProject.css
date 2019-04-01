@@ -1,0 +1,125 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	 font-size: 120%;
+	 background: #F8F8FF;
+	 background-image: url("logo.jpg");
+	 background-position: center center;
+	 background-attachment: fixed;
+	 background-size: 70% auto;
+	 background-repeat: no-repeat;
+	 
+	
+}
+.header {
+	width: 80%;
+	margin: 50px auto 0px;
+	color: white;
+	background: #5F9EA0;
+	text-align: center;
+	border: 5px solid #B0C4DE;
+	border-bottom: none;
+	border-radius: 10px 10px 0px 0px;
+	padding: 20px;
+	background-attachment: fixed;
+}
+
+form, .content{
+	width: 80%;
+	margin: 0px auto;
+	padding: 20px;
+	border: 1px solid #B0C4DE;
+	background:rgba(123,123,255, 0.3);
+	border-radius: 0px 0px 10px 10px;
+	
+}
+	
+	
+.input-group{
+	margin: 10px 0px 10px 0px;
+	text-align: left;
+ }
+.input-group label {
+	display: block;
+	text-align: left;
+	margin: 3px;
+        margin-left:35%;
+}
+
+.input-group input {
+	height: 30px;
+	width: 30%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid blue;
+        margin-left:35%;
+	
+}
+
+.btn {
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background: #5F9EA0;
+	border: none;
+	border-radius: 5px;
+} 
+.error {
+	width: 92%;
+	margin: 0px auto;
+	padding: 10px;
+	border: 1px solid #a94442;
+	color: #a94442;
+	background: #f2dede;
+	border-radius: 5px;
+	text-align: left;
+}
+
+.success{
+	color: #3c763d;
+	background: #dff0d8;
+	border: 1px solid #3c763d;
+	margin-bottom: 20px;
+}
+.inputus{
+	text-align: center;
+}
+h3{
+	
+	width: 80%;
+	margin: 0px auto 10px;
+	color: white;
+	background: rgba(232, 13, 50,0.7);
+	text-align: center;
+	border: 5px solid rgba(237, 40, 73, 0.3);
+	border-bottom: none;
+	border-radius: 10px;
+	padding: 20px;
+	font-style: italic;
+	
+}
+span{letter-spacing: 10px;}
+.radio{
+	text-align: center;
+}
+h2{
+	text-align: center;
+	
+}
+#datepicker{
+	height: 30px;
+	width: 50%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid blue;
+        margin-bottom: 20px;
+}
+fieldset{
+	width: 40%;
+     
+
+}
